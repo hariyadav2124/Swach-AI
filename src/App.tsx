@@ -129,12 +129,6 @@ import { AdminNotificationsModal } from './components/admin/AdminNotificationsMo
 
 // Authentication & RBAC Layer
 import { AuthSession } from './types/auth';
-import { 
-  MOCK_ACCOUNTS, 
-  loadStoredSession, 
-  saveSession, 
-  createSessionFromAccount 
-} from './data/mockAccounts';
 import { LoginView } from './components/auth/LoginView';
 
 export default function App() {
